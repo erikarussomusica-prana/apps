@@ -1,0 +1,11 @@
+[
+ {"slug":"agendar","nome":"Agendar Prana","curto":"Agendar","emoji":"📅","cor1":"#C98A00","cor2":"#7A4E00","modo":"ir"},
+ {"slug":"leads","nome":"Leads Prana","curto":"Leads","emoji":"💬","cor1":"#E0457F","cor2":"#8E1347","modo":"ir"},
+ {"slug":"aulas","nome":"Aulas Prana","curto":"Aulas","emoji":"🎼","cor1":"#3B82E0","cor2":"#173F86","modo":"frame"},
+ {"slug":"professores","nome":"Professores Prana","curto":"Professores","emoji":"🧑‍🏫","cor1":"#2BA8A0","cor2":"#0E5A56","modo":"frame"},
+ {"slug":"biblioteca","nome":"Biblioteca Prana","curto":"Biblioteca","emoji":"📚","cor1":"#1A9CB8","cor2":"#0A4D5E","modo":"frame"},
+ {"slug":"recital","nome":"Recital Prana","curto":"Recital","emoji":"🎤","cor1":"#F06A2A","cor2":"#8C300A","modo":"frame"},
+ {"slug":"banda","nome":"Banda Prana","curto":"Banda","emoji":"🥁","cor1":"#D94A3A","cor2":"#7A1A12","modo":"frame"},
+ {"slug":"cca","nome":"CCA Prana","curto":"CCA","emoji":"🧒","cor1":"#5DB84A","cor2":"#25611A","modo":"frame"},
+ {"slug":"meucorpo","nome":"Meu Corpo","curto":"Meu Corpo","emoji":"🌸","cor1":"#9B5CD1","cor2":"#4A1A72","modo":"ir"}
+]
