@@ -31,7 +31,11 @@
   if (!ok(u)) {
     document.body.innerHTML = '<div class="msg"><b>🧑‍🏫</b><p>Abra este app pela <strong>Central da Prana</strong>, no botão <strong>📲 Instalar no celular</strong>.</p><p>Depois, no Chrome: ⋮ → <strong>Instalar app</strong>.</p></div>';
   } else if (MODO === 'ir') {
-    location.replace(u);
+    var instalado = (window.matchMedia && matchMedia('(display-mode: standalone)').matches) || navigator.standalone;
+    if (instalado) { location.replace(u); }
+    else {
+      document.body.innerHTML = '<div class="msg"><b>🧑‍🏫</b><p><strong>Professores Prana</strong> pronto para instalar.</p><p>No Chrome, toque em <strong>⋮</strong> (canto de cima) → <strong>Instalar app</strong> ou <strong>Adicionar à tela inicial</strong>.</p><p style="margin-top:28px"><a href="' + u.replace(/"/g, '') + '" style="display:inline-block;background:#fff;color:#0E5A56;padding:12px 22px;border-radius:10px;font-weight:700;text-decoration:none">Abrir agora sem instalar</a></p></div>';
+    }
   } else {
     var f = document.createElement('iframe');
     f.src = u; f.title = 'Professores Prana';
